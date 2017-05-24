@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,52 +11,55 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MainCell" rowHeight="192" id="KGk-i7-Jjw" customClass="MainTableViewCell">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="MainCell" rowHeight="192" id="KGk-i7-Jjw" customClass="MainTableViewCell">
             <rect key="frame" x="0.0" y="0.0" width="390" height="192"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="390" height="192"/>
+                <rect key="frame" x="0.0" y="0.0" width="390" height="191"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Uj-Qq-mBx">
-                        <rect key="frame" x="8" y="8" width="374" height="175.5"/>
+                        <rect key="frame" x="8" y="8" width="374" height="175"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgy-Xp-gjR">
-                                <rect key="frame" x="8" y="8" width="35.5" height="17"/>
+                                <rect key="frame" x="8" y="8" width="36" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.17254901959999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DKf-Lp-Hh8">
-                                <rect key="frame" x="8" y="150" width="35.5" height="17"/>
+                                <rect key="frame" x="8" y="150" width="36" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.17254901959999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="247" verticalCompressionResistancePriority="747" translatesAutoresizingMaskIntoConstraints="NO" id="zBv-v7-tRW">
                                 <rect key="frame" x="8" y="41" width="358" height="93"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="93" id="RTI-TF-FWP"/>
+                                    <constraint firstAttribute="height" constant="93" id="maj-Ls-EOW"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zhn-Ib-k2T">
+                                <rect key="frame" x="330" y="8" width="36" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.12941176469999999" green="0.17254901959999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="DKf-Lp-Hh8" firstAttribute="top" secondItem="zBv-v7-tRW" secondAttribute="bottom" constant="16" id="9JE-ZZ-GcD"/>
                             <constraint firstAttribute="bottom" secondItem="DKf-Lp-Hh8" secondAttribute="bottom" constant="8" id="OHg-Br-mUO"/>
                             <constraint firstItem="DKf-Lp-Hh8" firstAttribute="leading" secondItem="4Uj-Qq-mBx" secondAttribute="leading" constant="8" id="VYe-qa-Pkh"/>
                             <constraint firstItem="zgy-Xp-gjR" firstAttribute="top" secondItem="4Uj-Qq-mBx" secondAttribute="top" constant="8" id="Yi6-K2-nwc"/>
+                            <constraint firstItem="zhn-Ib-k2T" firstAttribute="top" secondItem="4Uj-Qq-mBx" secondAttribute="top" constant="8" id="aXL-f7-w5F"/>
                             <constraint firstItem="zBv-v7-tRW" firstAttribute="leading" secondItem="4Uj-Qq-mBx" secondAttribute="leading" constant="8" id="cBH-5a-OTr"/>
                             <constraint firstItem="zBv-v7-tRW" firstAttribute="top" secondItem="zgy-Xp-gjR" secondAttribute="bottom" constant="16" id="iiM-T9-cIu"/>
                             <constraint firstAttribute="trailing" secondItem="zBv-v7-tRW" secondAttribute="trailing" constant="8" id="l1p-cl-gWS"/>
                             <constraint firstItem="zgy-Xp-gjR" firstAttribute="leading" secondItem="4Uj-Qq-mBx" secondAttribute="leading" constant="8" id="qOb-Ed-DSd"/>
+                            <constraint firstAttribute="trailing" secondItem="zhn-Ib-k2T" secondAttribute="trailing" constant="8" id="z5U-zA-P3P"/>
                         </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                <integer key="value" value="15"/>
-                            </userDefinedRuntimeAttribute>
-                        </userDefinedRuntimeAttributes>
                     </view>
                 </subviews>
                 <constraints>
@@ -68,7 +71,9 @@
             </tableViewCellContentView>
             <connections>
                 <outlet property="container" destination="zBv-v7-tRW" id="7gG-gd-4ig"/>
-                <outlet property="containerHeight" destination="RTI-TF-FWP" id="gdi-Fh-t51"/>
+                <outlet property="containerHeight" destination="maj-Ls-EOW" id="fHX-g5-sj6"/>
+                <outlet property="contentV" destination="4Uj-Qq-mBx" id="x94-6c-r0F"/>
+                <outlet property="date" destination="zhn-Ib-k2T" id="fxD-jD-cD5"/>
                 <outlet property="footer" destination="DKf-Lp-Hh8" id="OkC-E7-4Qd"/>
                 <outlet property="head" destination="zgy-Xp-gjR" id="46o-Ms-ODO"/>
             </connections>

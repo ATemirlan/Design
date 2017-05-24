@@ -7,16 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Flight.h"
+#import "Order.h"
 
 @interface MainTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *head;
 @property (weak, nonatomic) IBOutlet UILabel *footer;
+@property (weak, nonatomic) IBOutlet UILabel *date;
 
 @property (weak, nonatomic) IBOutlet UIView *container;
 
 @property (nonatomic) BOOL isPopulated;
 
-- (void)createCellsWith:(NSArray *)data;
+- (void)createCellsWith:(Order *)order;
 
 @end

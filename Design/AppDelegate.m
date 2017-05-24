@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "UIColor+SystemColor.h"
 
 @interface AppDelegate () <UINavigationBarDelegate>
 
@@ -23,7 +24,7 @@
     [vc.navigationBar setTranslucent:NO];
     [vc.navigationBar setTintColor:[UIColor whiteColor]];
     [vc.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
-    [vc.navigationBar setBarTintColor:[UIColor colorWithRed:51.0f/255.0f green:51.0f/255.0f blue:51.0f/255.0f alpha:1.0f]];
+    [vc.navigationBar setBarTintColor:[UIColor designBlue]];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     [self.window setRootViewController:vc];

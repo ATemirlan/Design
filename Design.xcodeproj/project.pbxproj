@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647257B75708FDA4143DAD67 /* libPods-Design.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E97E0CDC1680BA12427A46E0 /* libPods-Design.a */; };
+		919F4D111ED53E4B00C56CF6 /* BookingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F4D0F1ED53E4B00C56CF6 /* BookingTableViewCell.m */; };
+		919F4D121ED53E4B00C56CF6 /* BookingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 919F4D101ED53E4B00C56CF6 /* BookingTableViewCell.xib */; };
+		919F4D161ED5434100C56CF6 /* FlightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F4D141ED5434100C56CF6 /* FlightTableViewCell.m */; };
+		919F4D171ED5434100C56CF6 /* FlightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 919F4D151ED5434100C56CF6 /* FlightTableViewCell.xib */; };
+		919F4D211ED592E800C56CF6 /* Passenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F4D201ED592E800C56CF6 /* Passenger.m */; };
+		919F4D241ED5942E00C56CF6 /* InvalidObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 919F4D231ED5942E00C56CF6 /* InvalidObject.m */; };
 		91D2BCFE1ED2D51100D2C3A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D2BCFD1ED2D51100D2C3A5 /* main.m */; };
 		91D2BD011ED2D51100D2C3A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D2BD001ED2D51100D2C3A5 /* AppDelegate.m */; };
 		91D2BD091ED2D51100D2C3A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D2BD081ED2D51100D2C3A5 /* Assets.xcassets */; };
@@ -15,9 +22,34 @@
 		91D2BD171ED2D85800D2C3A5 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D2BD151ED2D85800D2C3A5 /* MainViewController.xib */; };
 		91D2BD1C1ED2E0FA00D2C3A5 /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D2BD1A1ED2E0FA00D2C3A5 /* MainTableViewCell.m */; };
 		91D2BD1D1ED2E0FA00D2C3A5 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D2BD1B1ED2E0FA00D2C3A5 /* MainTableViewCell.xib */; };
+		91D442E41ED3E0BF00F64AEA /* Flight.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D442E31ED3E0BF00F64AEA /* Flight.m */; };
+		91D442E81ED3E41300F64AEA /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D442E71ED3E41300F64AEA /* Order.m */; };
+		91D442EC1ED3EBDF00F64AEA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D442EA1ED3EBDF00F64AEA /* DetailViewController.m */; };
+		91D442ED1ED3EBDF00F64AEA /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D442EB1ED3EBDF00F64AEA /* DetailViewController.xib */; };
+		91D442F21ED4266D00F64AEA /* HeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D442F01ED4266D00F64AEA /* HeaderTableViewCell.m */; };
+		91D442F31ED4266D00F64AEA /* HeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91D442F11ED4266D00F64AEA /* HeaderTableViewCell.xib */; };
+		91D442F81ED42B1E00F64AEA /* StandardButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D442F71ED42B1E00F64AEA /* StandardButton.m */; };
+		91D442FB1ED42BCE00F64AEA /* UIColor+SystemColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D442FA1ED42BCE00F64AEA /* UIColor+SystemColor.m */; };
+		91DAC2641ED432EE00CBD0A8 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91DAC2631ED432EE00CBD0A8 /* HeaderView.xib */; };
+		91DAC2681ED43BE200CBD0A8 /* PassengersTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DAC2661ED43BE200CBD0A8 /* PassengersTableViewCell.m */; };
+		91DAC2691ED43BE200CBD0A8 /* PassengersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91DAC2671ED43BE200CBD0A8 /* PassengersTableViewCell.xib */; };
+		91DAC26D1ED4484600CBD0A8 /* OrderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DAC26B1ED4484600CBD0A8 /* OrderTableViewCell.m */; };
+		91DAC26E1ED4484600CBD0A8 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91DAC26C1ED4484600CBD0A8 /* OrderTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10B5DEFDC78996A00FCBE0CA /* Pods-Design.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Design.release.xcconfig"; path = "Pods/Target Support Files/Pods-Design/Pods-Design.release.xcconfig"; sourceTree = "<group>"; };
+		24C6BCED972C9EAFBD9BD0DA /* Pods-Design.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Design.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Design/Pods-Design.debug.xcconfig"; sourceTree = "<group>"; };
+		919F4D0E1ED53E4B00C56CF6 /* BookingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookingTableViewCell.h; sourceTree = "<group>"; };
+		919F4D0F1ED53E4B00C56CF6 /* BookingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookingTableViewCell.m; sourceTree = "<group>"; };
+		919F4D101ED53E4B00C56CF6 /* BookingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookingTableViewCell.xib; sourceTree = "<group>"; };
+		919F4D131ED5434100C56CF6 /* FlightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightTableViewCell.h; sourceTree = "<group>"; };
+		919F4D141ED5434100C56CF6 /* FlightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightTableViewCell.m; sourceTree = "<group>"; };
+		919F4D151ED5434100C56CF6 /* FlightTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightTableViewCell.xib; sourceTree = "<group>"; };
+		919F4D1F1ED592E800C56CF6 /* Passenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passenger.h; sourceTree = "<group>"; };
+		919F4D201ED592E800C56CF6 /* Passenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Passenger.m; sourceTree = "<group>"; };
+		919F4D221ED5942E00C56CF6 /* InvalidObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvalidObject.h; sourceTree = "<group>"; };
+		919F4D231ED5942E00C56CF6 /* InvalidObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvalidObject.m; sourceTree = "<group>"; };
 		91D2BCF91ED2D51100D2C3A5 /* Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Design.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D2BCFD1ED2D51100D2C3A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91D2BCFF1ED2D51100D2C3A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,6 +63,28 @@
 		91D2BD191ED2E0FA00D2C3A5 /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
 		91D2BD1A1ED2E0FA00D2C3A5 /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
 		91D2BD1B1ED2E0FA00D2C3A5 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		91D442E21ED3E0BF00F64AEA /* Flight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flight.h; sourceTree = "<group>"; };
+		91D442E31ED3E0BF00F64AEA /* Flight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flight.m; sourceTree = "<group>"; };
+		91D442E61ED3E41300F64AEA /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		91D442E71ED3E41300F64AEA /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		91D442E91ED3EBDF00F64AEA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		91D442EA1ED3EBDF00F64AEA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		91D442EB1ED3EBDF00F64AEA /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		91D442EF1ED4266D00F64AEA /* HeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderTableViewCell.h; sourceTree = "<group>"; };
+		91D442F01ED4266D00F64AEA /* HeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderTableViewCell.m; sourceTree = "<group>"; };
+		91D442F11ED4266D00F64AEA /* HeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderTableViewCell.xib; sourceTree = "<group>"; };
+		91D442F61ED42B1E00F64AEA /* StandardButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardButton.h; sourceTree = "<group>"; };
+		91D442F71ED42B1E00F64AEA /* StandardButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardButton.m; sourceTree = "<group>"; };
+		91D442F91ED42BCE00F64AEA /* UIColor+SystemColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SystemColor.h"; sourceTree = "<group>"; };
+		91D442FA1ED42BCE00F64AEA /* UIColor+SystemColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SystemColor.m"; sourceTree = "<group>"; };
+		91DAC2631ED432EE00CBD0A8 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		91DAC2651ED43BE200CBD0A8 /* PassengersTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengersTableViewCell.h; sourceTree = "<group>"; };
+		91DAC2661ED43BE200CBD0A8 /* PassengersTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengersTableViewCell.m; sourceTree = "<group>"; };
+		91DAC2671ED43BE200CBD0A8 /* PassengersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassengersTableViewCell.xib; sourceTree = "<group>"; };
+		91DAC26A1ED4484600CBD0A8 /* OrderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTableViewCell.h; sourceTree = "<group>"; };
+		91DAC26B1ED4484600CBD0A8 /* OrderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTableViewCell.m; sourceTree = "<group>"; };
+		91DAC26C1ED4484600CBD0A8 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		E97E0CDC1680BA12427A46E0 /* libPods-Design.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Design.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,17 +92,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647257B75708FDA4143DAD67 /* libPods-Design.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		130C40E70E39F7823666D886 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24C6BCED972C9EAFBD9BD0DA /* Pods-Design.debug.xcconfig */,
+				10B5DEFDC78996A00FCBE0CA /* Pods-Design.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		91D2BCF01ED2D51100D2C3A5 = {
 			isa = PBXGroup;
 			children = (
 				91D2BCFB1ED2D51100D2C3A5 /* Design */,
 				91D2BCFA1ED2D51100D2C3A5 /* Products */,
+				130C40E70E39F7823666D886 /* Pods */,
+				A2C2C8EB136509C41D73767C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,12 +129,9 @@
 		91D2BCFB1ED2D51100D2C3A5 /* Design */ = {
 			isa = PBXGroup;
 			children = (
-				91D2BCFF1ED2D51100D2C3A5 /* AppDelegate.h */,
-				91D2BD001ED2D51100D2C3A5 /* AppDelegate.m */,
-				91D2BD181ED2E0D300D2C3A5 /* MainView */,
-				91D2BD081ED2D51100D2C3A5 /* Assets.xcassets */,
-				91D2BD0A1ED2D51100D2C3A5 /* LaunchScreen.storyboard */,
-				91D2BD0D1ED2D51100D2C3A5 /* Info.plist */,
+				91D442E51ED3E0C600F64AEA /* Model */,
+				91DAC26F1ED4487B00CBD0A8 /* View */,
+				91DAC2701ED448BF00CBD0A8 /* Controller */,
 				91D2BCFC1ED2D51100D2C3A5 /* Supporting Files */,
 			);
 			path = Design;
@@ -77,22 +140,88 @@
 		91D2BCFC1ED2D51100D2C3A5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				91D2BCFF1ED2D51100D2C3A5 /* AppDelegate.h */,
+				91D2BD001ED2D51100D2C3A5 /* AppDelegate.m */,
+				91D442F61ED42B1E00F64AEA /* StandardButton.h */,
+				91D442F71ED42B1E00F64AEA /* StandardButton.m */,
+				91D442F91ED42BCE00F64AEA /* UIColor+SystemColor.h */,
+				91D442FA1ED42BCE00F64AEA /* UIColor+SystemColor.m */,
+				91D2BD081ED2D51100D2C3A5 /* Assets.xcassets */,
+				91D2BD0A1ED2D51100D2C3A5 /* LaunchScreen.storyboard */,
+				91D2BD0D1ED2D51100D2C3A5 /* Info.plist */,
 				91D2BCFD1ED2D51100D2C3A5 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		91D2BD181ED2E0D300D2C3A5 /* MainView */ = {
+		91D442E51ED3E0C600F64AEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91D442E61ED3E41300F64AEA /* Order.h */,
+				91D442E71ED3E41300F64AEA /* Order.m */,
+				91D442E21ED3E0BF00F64AEA /* Flight.h */,
+				91D442E31ED3E0BF00F64AEA /* Flight.m */,
+				919F4D1F1ED592E800C56CF6 /* Passenger.h */,
+				919F4D201ED592E800C56CF6 /* Passenger.m */,
+				919F4D221ED5942E00C56CF6 /* InvalidObject.h */,
+				919F4D231ED5942E00C56CF6 /* InvalidObject.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		91DAC26F1ED4487B00CBD0A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91D2BD151ED2D85800D2C3A5 /* MainViewController.xib */,
+				91D442EB1ED3EBDF00F64AEA /* DetailViewController.xib */,
+				91DAC2631ED432EE00CBD0A8 /* HeaderView.xib */,
+				91DAC2711ED448E100CBD0A8 /* Table cells */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		91DAC2701ED448BF00CBD0A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91D2BD131ED2D85800D2C3A5 /* MainViewController.h */,
+				91D2BD141ED2D85800D2C3A5 /* MainViewController.m */,
+				91D442E91ED3EBDF00F64AEA /* DetailViewController.h */,
+				91D442EA1ED3EBDF00F64AEA /* DetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		91DAC2711ED448E100CBD0A8 /* Table cells */ = {
 			isa = PBXGroup;
 			children = (
 				91D2BD191ED2E0FA00D2C3A5 /* MainTableViewCell.h */,
 				91D2BD1A1ED2E0FA00D2C3A5 /* MainTableViewCell.m */,
 				91D2BD1B1ED2E0FA00D2C3A5 /* MainTableViewCell.xib */,
-				91D2BD131ED2D85800D2C3A5 /* MainViewController.h */,
-				91D2BD141ED2D85800D2C3A5 /* MainViewController.m */,
-				91D2BD151ED2D85800D2C3A5 /* MainViewController.xib */,
+				91D442EF1ED4266D00F64AEA /* HeaderTableViewCell.h */,
+				91D442F01ED4266D00F64AEA /* HeaderTableViewCell.m */,
+				91D442F11ED4266D00F64AEA /* HeaderTableViewCell.xib */,
+				91DAC2651ED43BE200CBD0A8 /* PassengersTableViewCell.h */,
+				91DAC2661ED43BE200CBD0A8 /* PassengersTableViewCell.m */,
+				91DAC2671ED43BE200CBD0A8 /* PassengersTableViewCell.xib */,
+				91DAC26A1ED4484600CBD0A8 /* OrderTableViewCell.h */,
+				91DAC26B1ED4484600CBD0A8 /* OrderTableViewCell.m */,
+				91DAC26C1ED4484600CBD0A8 /* OrderTableViewCell.xib */,
+				919F4D0E1ED53E4B00C56CF6 /* BookingTableViewCell.h */,
+				919F4D0F1ED53E4B00C56CF6 /* BookingTableViewCell.m */,
+				919F4D101ED53E4B00C56CF6 /* BookingTableViewCell.xib */,
+				919F4D131ED5434100C56CF6 /* FlightTableViewCell.h */,
+				919F4D141ED5434100C56CF6 /* FlightTableViewCell.m */,
+				919F4D151ED5434100C56CF6 /* FlightTableViewCell.xib */,
 			);
-			name = MainView;
+			name = "Table cells";
+			sourceTree = "<group>";
+		};
+		A2C2C8EB136509C41D73767C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E97E0CDC1680BA12427A46E0 /* libPods-Design.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91D2BD101ED2D51100D2C3A5 /* Build configuration list for PBXNativeTarget "Design" */;
 			buildPhases = (
+				412DC84E9974DA209629675E /* [CP] Check Pods Manifest.lock */,
 				91D2BCF51ED2D51100D2C3A5 /* Sources */,
 				91D2BCF61ED2D51100D2C3A5 /* Frameworks */,
 				91D2BCF71ED2D51100D2C3A5 /* Resources */,
+				4E2968AB27281F9B355A18D5 /* [CP] Embed Pods Frameworks */,
+				BB94B95323036B61A9A41DBD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,23 +287,90 @@
 			buildActionMask = 2147483647;
 			files = (
 				91D2BD0C1ED2D51100D2C3A5 /* LaunchScreen.storyboard in Resources */,
+				919F4D171ED5434100C56CF6 /* FlightTableViewCell.xib in Resources */,
 				91D2BD171ED2D85800D2C3A5 /* MainViewController.xib in Resources */,
+				91DAC2691ED43BE200CBD0A8 /* PassengersTableViewCell.xib in Resources */,
+				91DAC26E1ED4484600CBD0A8 /* OrderTableViewCell.xib in Resources */,
+				91D442ED1ED3EBDF00F64AEA /* DetailViewController.xib in Resources */,
 				91D2BD1D1ED2E0FA00D2C3A5 /* MainTableViewCell.xib in Resources */,
+				91D442F31ED4266D00F64AEA /* HeaderTableViewCell.xib in Resources */,
+				919F4D121ED53E4B00C56CF6 /* BookingTableViewCell.xib in Resources */,
 				91D2BD091ED2D51100D2C3A5 /* Assets.xcassets in Resources */,
+				91DAC2641ED432EE00CBD0A8 /* HeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		412DC84E9974DA209629675E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E2968AB27281F9B355A18D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Design/Pods-Design-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB94B95323036B61A9A41DBD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Design/Pods-Design-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91D2BCF51ED2D51100D2C3A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91D442E81ED3E41300F64AEA /* Order.m in Sources */,
 				91D2BD011ED2D51100D2C3A5 /* AppDelegate.m in Sources */,
 				91D2BCFE1ED2D51100D2C3A5 /* main.m in Sources */,
 				91D2BD1C1ED2E0FA00D2C3A5 /* MainTableViewCell.m in Sources */,
+				919F4D111ED53E4B00C56CF6 /* BookingTableViewCell.m in Sources */,
+				919F4D211ED592E800C56CF6 /* Passenger.m in Sources */,
+				91D442F21ED4266D00F64AEA /* HeaderTableViewCell.m in Sources */,
+				91D442E41ED3E0BF00F64AEA /* Flight.m in Sources */,
+				919F4D241ED5942E00C56CF6 /* InvalidObject.m in Sources */,
+				91DAC2681ED43BE200CBD0A8 /* PassengersTableViewCell.m in Sources */,
+				91D442FB1ED42BCE00F64AEA /* UIColor+SystemColor.m in Sources */,
 				91D2BD161ED2D85800D2C3A5 /* MainViewController.m in Sources */,
+				91D442EC1ED3EBDF00F64AEA /* DetailViewController.m in Sources */,
+				91DAC26D1ED4484600CBD0A8 /* OrderTableViewCell.m in Sources */,
+				91D442F81ED42B1E00F64AEA /* StandardButton.m in Sources */,
+				919F4D161ED5434100C56CF6 /* FlightTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +480,7 @@
 		};
 		91D2BD111ED2D51100D2C3A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C6BCED972C9EAFBD9BD0DA /* Pods-Design.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S9TF7DAU5J;
@@ -293,6 +493,7 @@
 		};
 		91D2BD121ED2D51100D2C3A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B5DEFDC78996A00FCBE0CA /* Pods-Design.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = S9TF7DAU5J;
@@ -322,6 +523,7 @@
 				91D2BD121ED2D51100D2C3A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
