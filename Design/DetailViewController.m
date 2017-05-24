@@ -6,6 +6,9 @@
 //  Copyright © 2017 TemirlanAlpysbayev. All rights reserved.
 //
 
+#import "Flight.h"
+#import "Passenger.h"
+#import "InvalidObject.h"
 #import "DetailViewController.h"
 #import "HeaderTableViewCell.h"
 #import "PassengersTableViewCell.h"
@@ -13,10 +16,6 @@
 #import "BookingTableViewCell.h"
 #import "OrderTableViewCell.h"
 #import "UIColor+SystemColor.h"
-#import <MXParallaxHeader/MXParallaxHeader.h>
-#import "Flight.h"
-#import "Passenger.h"
-#import "InvalidObject.h"
 
 @interface DetailViewController () <UITableViewDataSource, UITableViewDelegate>
 
